@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1366
     height: 685
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 392}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1366
     height: 685
-  m_MinSize: {x: 875, y: 392}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_MinSize: {x: 811, y: 271}
   m_MaxSize: {x: 22006, y: 10021}
   vertical: 0
-  controlID: 22
+  controlID: 130
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 101, y: 242}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 23
+  controlID: 131
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -513,7 +513,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: c40c0000
       m_LastClickedID: 0
       m_ExpandedIDs: 56fbffff
       m_RenameOverlay:
@@ -617,21 +617,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Proyectos\RelaxTetris
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d44c0000
-    m_LastClickedID: 19668
+    m_SelectedIDs: da4c0000
+    m_LastClickedID: 19674
     m_ExpandedIDs: 00000000d24c0000d44c0000d64c0000d84c0000da4c0000dc4c0000de4c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -687,7 +687,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: ee640000b4890000646a0000a470000074f100009a700000065e000052090200560902004e0902002e4a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -783,23 +783,23 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 21
+      y: 0
       width: 611
-      height: 339
-    m_Scale: {x: 0.1765625, y: 0.1765625}
-    m_Translation: {x: 305.5, y: 169.5}
+      height: 360
+    m_Scale: {x: 0.1875, y: 0.1875}
+    m_Translation: {x: 305.5, y: 180}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1730.2655
+      x: -1629.3334
       y: -960
-      width: 3460.531
+      width: 3258.6667
       height: 1920
     m_MinimalGUI: 1
-  m_defaultScale: 0.1765625
+  m_defaultScale: 0.1875
   m_LastWindowPixelSize: {x: 611, y: 360}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
@@ -894,7 +894,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.024295665, y: -0.9674043, z: 0.23059648, w: -0.1019249}
     speed: 2
-    m_Value: {x: -0.024295364, y: -0.9673923, z: 0.23059362, w: -0.10192364}
+    m_Value: {x: 0.024295665, y: 0.96740425, z: -0.23059647, w: 0.1019249}
   m_Size:
     m_Target: 25.065546
     speed: 2
